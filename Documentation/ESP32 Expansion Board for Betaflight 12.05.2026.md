@@ -13,7 +13,7 @@
 Setup the ESP32 Uart sniffing logic. The ESP32 DEVKIT V1 has a common ground with the ELRS module connected to the FCU,
 and the ELRS modules' TX pin is also routed to the RX pin (GPIO 16) of the ESP32 DEVKIT V1.
 
-The ESP32 DEVKIT V1 utilizes the AlfredoCRSF protocol to decode the crossfire protocol,
+The ESP32 DEVKIT V1 utilizes the AlfredoCRSF library to decode the crossfire protocol,
 and then, it outputs it into the serial monitor (or plotter) in a channel:value format.
 
 This was merely a proof of concept to verify packet sniffing of ELRS is functional from a secondary microcontroller,
