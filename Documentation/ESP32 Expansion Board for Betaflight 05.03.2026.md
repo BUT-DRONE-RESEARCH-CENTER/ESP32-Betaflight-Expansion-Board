@@ -1,0 +1,77 @@
+
+
+```
+note - zerosp
+```
+
+Goal: Easily configurable expansion board for BetaFlight based flight controllers, which can be integrated into the flight stack, running a microchip from the ESP32 family for potential collaboration with ESP Brno. It must have a web based flasher, firmware functions which are standardized, such as camera switching, servo control, step motor control, programmable LED control. It must do so by communicating through UART with the FCU or the ELRS receiver, getting the RF values of each signal, 
+
+**ESP FC EXPANSION BOARD - find a name**
+
+```
+Hardware requirements
+
+PCB must be in the footprint of a typical STM32F4 or STM32F7 footprint.
+
+Pads:
+VBAT_IN+ - Takese the battery voltage
+GND - Battery ground
+
+RX/TX - Data link with ESP UART port for communicating with FCU or ELRS for getting stick position data.
+
+VOUT_5V (2x) - regulated 5V 2A output,
+VOUT_9V (2x) - 9V 1A output
+VBAT_OUT (2x) - battery voltage output
+GND (4x) - Common Ground
+
+Servo Connector (2x)
+3PIN enclosed DUPONT male connector, typical of hobbyist servo motors;
+Pins - GND, 5V (Tapped from the VOUT 5V line), PWM (PWM 1 and 2, on ESP32)
+
+Video Switcher (2x)
+V_OUT and GND pad, controlled by 2x logic level mosfets - mosfets to be determined by current draw of cameras. Each one has a solder bridge selector between 5v and 9v in the rear side, from which the desired voltage level for the camera can be selected. ESP32 controls mosfets with a switching logic, GPIO 1 and GPIO 2, which changes which camera get's the power, and controls the camera output of the drone.
+
+
+Step Motor Driver (2x)
+V_OUT (5v), Coils A, B, C, D (JST-XH port)
+Marked clearly on the PCB as X and Y
+Idea is to have a Pan/tilt platform with an analog camera, such that the video switcher allows an already stable drone platform to put the view on the camera, and with radio setup, the controller to do pan/tilt movements.
+An appropriate 3d printed mechanism must also be designed. 
+......
+more features to be thought of
+
+USB C Port For Programming - Side Mounted
+
+Diagnostic LED of ESP, for flashing and other info (research which diagnostic LED's the esp32 has, and appropriately, setup the nessecary LED's on the pcb)
+
+BOOT and RST Tacticle Buttons - Side Mounted
+
+
+```
+
+
+
+```
+SOFTWARE REQUIREMENTS
+
+1. setup the ELRS sniffer logic - first priority, understand the data coming from the MCU and how the controls are interpreted by the MCU.
+   
+2. Firmware Flashing web interface: Setup a prototype browser based firmware flashing website, from which basic prototype scripts are flashed, to test the flashing system and requirements, and appropriately build the hardware and the firmware packages for flashing and configuration.
+   
+3. Data reading web interface: Setup a basic webserver for reading out and displaying the sniffed RC data from the ELRS. Use this as a phase to build up foundational knowledge on how to setup the keymapping.
+   
+4. Prototype Real time response testing - Setup a basic script on the ESP32 for receiving commands from the ELRS, and run a few basic functions;
+   Such as toggling on/off led's, turning a servo motor, camera switching etc.
+   
+5. Once the foundational knowledge is received, properly setup the system architecture and work on the development of a software + breadboard prototype, and after testing, get to designing the PCB.
+
+```
+
+
+
+```
+DOCUMENTATION REQUIREMENTS:
+
+After each major step, document the steps taken, achieved goals, and any oddities or potential porblems.
+
+```
