@@ -58,7 +58,7 @@ esptool --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x10000 ./build/project.
 
 # --chip argument specifies the chipset you are building for
 # --port argument specifies the serial port your chip is on
-# --z argument specifies the starting memory location for your code in the flash memory of hte microcontroller. 0x10000 is the default starting location for (most) ESP32 chips.
+# --z argument specifies the starting memory location for your code in the flash memory of the microcontroller. 0x10000 is the default starting location for (most) ESP32 chips.
 ```
 
 The above commands should hopefully build your code and flash it, with a clear success indicator on the terminal.

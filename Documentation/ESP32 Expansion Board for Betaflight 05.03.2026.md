@@ -6,7 +6,7 @@ note - zerosp
 
 Goal: Easily configurable expansion board for BetaFlight based flight controllers, which can be integrated into the flight stack, running a microchip from the ESP32 family for potential collaboration with ESP Brno. It must have a web based flasher, firmware functions which are standardized, such as camera switching, servo control, step motor control, programmable LED control. It must do so by communicating through UART with the FCU or the ELRS receiver, getting the RF values of each signal, 
 
-**ESP FC EXPANSION BOARD - find a name**
+**ESP FCU EXPANSION BOARD - find a name**
 
 ```
 Hardware requirements
