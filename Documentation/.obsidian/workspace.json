@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "868f33b15aff00b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcdcdef5fd68e359",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9091c5b03b43719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ESP32 Programming and Flashing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ESP32 Programming and Flashing"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec6b11ca0b9ef270",
+    "type": "split",
+    "children": [
+      {
+        "id": "843218f0a98e6e06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23067f95cbcd3cd3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "25840f6cb2ac71b2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a04abfaf53bfd1a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dd990387302e2c2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d1cc89f1e1a5027",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cfd77a844e1a54b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ESP32 Programming and Flashing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ESP32 Programming and Flashing"
+            }
+          },
+          {
+            "id": "49f70253638adc2a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ESP32 Programming and Flashing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ESP32 Programming and Flashing"
+            }
+          },
+          {
+            "id": "4672a1425844e8c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "01cb3b60e6e82ad6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9c18f97185b78580",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ESP32 Programming and Flashing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ESP32 Programming and Flashing"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f9091c5b03b43719",
+  "lastOpenFiles": [
+    "ESP32 Programming and Flashing.md",
+    "ESP32 Expansion Board for Betaflight 05.03.2026.md",
+    "ESP32 Expansion Board for Betaflight 12.05.2026.md",
+    "ESP32 Expansion Board for Betaflight based Quads.pdf"
+  ]
+}
