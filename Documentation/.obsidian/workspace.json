@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ESP32 Programming and Flashing.md",
+                "file": "26.03.2026 - Betaflight Expansion Board.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESP32 Programming and Flashing"
+              "title": "26.03.2026 - Betaflight Expansion Board"
             }
           }
         ],
@@ -200,9 +200,11 @@
   },
   "active": "e8625d05f143bd95",
   "lastOpenFiles": [
-    "ESP32 Expansion Board for Betaflight 05.03.2026.md",
-    "ESP32 Expansion Board for Betaflight 12.05.2026.md",
+    "Channel Mapping - DRC Radiomaster Pocket.md",
     "ESP32 Expansion Board for Betaflight based Quads.pdf",
-    "ESP32 Programming and Flashing.md"
+    "ESP32 Programming and Flashing.md",
+    "12.03.2026 - Betaflight Expansion Board.md",
+    "05.03.2026 - Betaflight Expansion Board.md",
+    "26.03.2026 - Betaflight Expansion Board.md"
   ]
 }
